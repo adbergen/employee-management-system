@@ -1,6 +1,6 @@
 # employee-management-system
 
-- This is a Content Management System command-line application used for managing a company's employees using node, inquirer, and MySQL.
+- This is a Content Management System command-line application used for managing a company's employees using node, inquirer, and MySQL. The user can view all departments, roles, and employees. The user can also add an employee, department, and/or role.
 
 ---
 

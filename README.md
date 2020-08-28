@@ -1,11 +1,10 @@
 # employee-management-system
 
-
 - This is a Content Management System command-line application used for managing a company's employees using node, inquirer, and MySQL.
 
 ---
 
-[Video walkthrough](https://drive.google.com/file/d/1Oq7LiY2mcf2A99yc5mG1w3OYhTQQEhaT/view)
+[Video walkthrough](https://drive.google.com/file/d/1F3_3-eOJbXPReM2wD1IaTNvP8CweF3Uc/view)
 
 ![image of demo](/assets/demo.png)
 
@@ -14,25 +13,19 @@
 ```
 - README.md (this file)
 
-- app.js
+- index.js
 
-- server.js
+- index.js
 
-- apiRoutes.js
+- connection.js
 
-- htmlRoutes.js
+- schema.sql
 
-- index.html
-
-- notes.html
-
-- styles.css
+- seed.sql
 
 - package.json
 
 - package-lock.json
-
-- db.json
 
 - .gitignore
 
@@ -72,4 +65,5 @@
 ```
 
 ---
+
 ---

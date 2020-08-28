@@ -58,7 +58,7 @@ function runSearch() {
 }
 
 function viewDepts() {
-  var query = "SELECT name, id FROM department ORDER BY id ASC";
+  var query = "SELECT id, name FROM department ORDER BY id ASC";
   connection.query(query, function (err, res) {
     console.table(res);
     runSearch();
@@ -67,7 +67,7 @@ function viewDepts() {
 
 function viewRoles() {
   var query =
-    "SELECT role.title, role.salary, department.name FROM role, department WHERE department.id = role.department_id";
+    "SELECT role.id, role.title, role.salary, role.department_id FROM role LEFT JOIN department ON role.id = department.id ORDER BY id ASC";
   connection.query(query, function (err, res) {
     console.table(res);
     runSearch();
@@ -76,7 +76,7 @@ function viewRoles() {
 
 function viewEmployees() {
   var query =
-    "SELECT employee.first_name, employee.last_name, role.title FROM employee, role WHERE employee.id = role.id";
+    "SELECT employee.id, employee.first_name, employee.last_name, employee.role_id, employee.manager_id FROM employee LEFT JOIN role ON employee.id = role.id ORDER BY id ASC";
   connection.query(query, function (err, res) {
     console.table(res);
     runSearch();

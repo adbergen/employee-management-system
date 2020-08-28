@@ -1,7 +1,7 @@
 USE employees;
 
 INSERT INTO
-    department (name)
+    department (id, name)
 Values
     ("Sales"),
     ("Engineering"),
@@ -9,7 +9,7 @@ Values
     ("Legal");
 
 INSERT INTO
-    role (title, salary, department_id)
+    role (id, title, salary, department_id)
 Values
     ("Sales Development", 60000, 1),
     ("Sales Manager", 80000, 1),
@@ -21,7 +21,7 @@ Values
     ("Lawyer", 180000, 4);
 
 INSERT INTO
-    employee (first_name, last_name, role_id, manager_id)
+    employee (id, first_name, last_name, role_id, manager_id)
 Values
     ("Michael", "Smith", 1, NULL),
     ("Jessica", "Reed", 1, 1),

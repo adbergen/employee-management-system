@@ -1,69 +1,81 @@
-# employee-management-system
+<h1 align="center">
+Employee Management System
+</h1>
+<h4 align="center" style="margin-bottom:10px">Be sure to star my configuration repo so you can keep up to date on any daily progress!</h4>
+<div align="center">
+  <h4>
+    </a>
+    <a href="https://github.com/adbergen/employee-management-system/stargazers"><img src="https://img.shields.io/github/stars/adbergen/employee-management-system.svg?style=plasticr"/></a>
+    <a href="https://github.com/adbergen/employee-management-system/commits/master"><img src="https://img.shields.io/github/last-commit/adbergen/employee-management-system.svg?style=plasticr"/></a>
+        <a href="https://github.com/adbergen/employee-management-system/commits/master"><img src="https://img.shields.io/github/commit-activity/y/adbergen/employee-management-system.svg?style=plasticr"/></a>
+</h4>
+<br>
+</div>
+<p align="center"><font size="3">
+This is a content management system command-line application</p>
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://github.com/adbergen/employee-management-system">
+      Github Repository
+    </a>
+<span> | </span>
+<a href="https://drive.google.com/file/d/1F3_3-eOJbXPReM2wD1IaTNvP8CweF3Uc/view">
+      Video Walkthrough
+    </a>
+  </h4>
+</div>
 
-- This is a Content Management System command-line application used for managing a company's employees using node, inquirer, and MySQL. The user can view all departments, roles, and employees. The user can also add an employee, department, and/or role.
+![Screenshot of application demo](assets/demo.png)
 
----
+<hr>
 
-[Video walkthrough](https://drive.google.com/file/d/1F3_3-eOJbXPReM2wD1IaTNvP8CweF3Uc/view)
+## Table of Contents
 
-![image of demo](/assets/demo.png)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
 
-## File Contents
+<hr>
 
-```
-- README.md (this file)
+## Installation
 
-- index.js
+<br>
+Using npm:
 
-- index.js
+<br>
+<br>
 
-- connection.js
+    npm install && npm start
 
-- schema.sql
+<hr>
 
-- seed.sql
+## Usage
 
-- package.json
+- This application allows users to manage a company's employees
+- The user can view all departments, roles, and employees
+- The user can also add/update an employee, department, and/or role
 
-- package-lock.json
+<hr>
 
-- .gitignore
+## Technologies
 
-- demo.png
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+<li>Javascript, JQuery, JSON</li>
+<li>Node.js, express.js, inquirer</li>
+<li>MySQL</li>
+<li>GitHub</li>
+</ul>
 
-```
+<hr>
 
----
+## Contributing
 
-## Languages Used
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-```
-- node.js is used as the runtime environment
+- Contributors: Anthony Bergen
 
-- Javascript, JQuery, and JSON are used as the interpreters
-
-- express.js is used as a back-end component to establish a server and router for the application
-
-- MySQL is used as the database management system
-
-```
-
----
-
-## Requirements Met
-
-```
-- Functional, deployed application to gitHub pages
-
-- gitHub repository with README describing the project
-
-- Video of the typical user flow through application including views of prompts and responses
-
-- Application allows users to add and view departments, roles, and employees
-
-- Application allows users to update employee roles
-```
-
----
-
----
+<hr><hr>
